@@ -26,7 +26,7 @@ $> cd metarank
 to define a redis endpoint!
 5. Install the chart:
 ```shell
-helm install metarank . --set-file config=metarank.conf
+helm install metarank . --set-file config=metarank.conf --namespace recommendation-engine-production
 
 NAME: metarank
 LAST DEPLOYED: Tue Oct  4 15:32:47 2022

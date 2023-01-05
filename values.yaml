@@ -8,7 +8,7 @@ image:
   repository: metarank/metarank
   pullPolicy: IfNotPresent
   # Overrides the image tag whose default is the chart appVersion.
-  tag: ""
+  tag: "0.5.15"
 
 # Can be used to pass auth secrets as env variables
 env: []
